@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#puma {
+  width: 100px;
+}
+
+#video_intro {
+  object-fit: cover;
+  width: 100%;
+}
+
+.discount-block {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-top: 10%;
+  gap: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#spray {
+  display: flex;
+  width: 35%;
+  justify-content: flex-end;
+}
+
+#spray-item {
+  width: 65%;
+}
+
+#discount {
+  display: flex;
+  justify-content: flex-start;
+  width: 65%;
+  align-items: center;
+}
+
+#discount-item {
+  width: 80%;
+}
