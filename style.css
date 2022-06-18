@@ -27,23 +27,58 @@ header {
 #video_intro {
   object-fit: cover;
   width: 100%;
+  position: absolute;
+  top: 18%;
 }
 
-.discount-block {
+#discount-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 5%;
   /* center block on all mobile device */
   position: absolute;
-  top: 50vh;
+  top: 53%;
+  background-color: rgb(17, 223, 62);
+}
+
+#adress-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:0.7rem;
+  background-color: rgb(223, 17, 17);
+  position: absolute;
+  top: 53%;
+  width: 100%;
+  padding: 5%;
+}
+
+#where {
+  font-family: Roboto;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+
+#adress {
+  font-family: Roboto;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+
+#map {
+    background-color: rgb(17, 223, 62);
+    clip-path: circle(35.0% at 50% 50%);
+    height: auto;
 }
 
 #spray {
   display: flex;
-  width: 35%;
+  width: 30%;
   justify-content: flex-end;
 }
 
@@ -54,7 +89,7 @@ header {
 #discount {
   display: flex;
   justify-content: flex-start;
-  width: 65%;
+  width: 60%;
   align-items: center;
 }
 
@@ -74,7 +109,7 @@ footer {
   width: 100%;
 }
 
-p {
+#cta {
   position: relative;
   display: flex;
   justify-content: center;
