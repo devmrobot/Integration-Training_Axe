@@ -1,4 +1,4 @@
-> ⚽ Puma Fragances
+## ⚽ Puma Fragances
 
 ![mockups](https://github.com/devmrobot/Integration-Training_Puma/blob/main/mockups.jpg)
 
